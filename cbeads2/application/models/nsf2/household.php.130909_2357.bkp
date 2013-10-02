@@ -1,0 +1,32 @@
+<?php
+
+/*
+	This file was auto generated on 2013-09-09 at 21:45:45.
+	
+*/
+
+namespace nsf2;
+
+class household extends \Doctrine_Record_Ex
+{
+
+	public function setTableDefinition()
+	{
+		$this->setTableName('nsf2.household');
+		$this->auto_generate_definition();
+	}
+
+	public function setUp()
+	{
+		$this->hasMany('nsf2\farm as Farms',
+			array(
+				'local' => 'id',
+				'foreign' => 'household_id'
+			)
+		);
+
+	}
+
+}
+
+?>

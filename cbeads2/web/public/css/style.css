@@ -1,0 +1,141 @@
+.default_login_page, .default_rego_page, .default_pass_reset_page {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #010101;
+	background-color: #0096bd;
+	background-image: url(../images/bg.jpg);
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+}
+.default_login_page-middle_box{
+	background-image: url(../images/login_bg.png);
+	background-repeat: no-repeat;
+	height: 192px;
+	width: 480px;
+}
+.default_login_page-top_box, .default_rego_page-top_box, .default_pass_reset_page-top_box {
+	background-image: url(../images/login_bg_top.png);
+	background-repeat: no-repeat;
+	height: 4px;
+	width: 480px;
+}
+.default_login_page-mid_box, .default_rego_page-mid_box, .default_pass_reset_page-mid_box {
+	background-image: url(../images/login_bg_mid.png);
+	background-repeat: repeat-y;
+	height: auto;
+	min-height: 192px;
+	width: 480px;
+}
+.default_login_page-btm_box, .default_rego_page-btm_box, .default_pass_reset_page-btm_box {
+	background-image: url(../images/login_bg_btm.png);
+	background-repeat: no-repeat;
+	height: 4px;
+	width: 480px;
+}
+.default_login_page-bold14 {
+	font-size: 14px;
+	font-weight: bold;
+}
+/* Style for the default Error Messages (error_message) */
+.default_login_page-error_message
+{ 
+  margin: 0.5em;
+  padding: 0.5em;
+  border: 2px solid red;
+}
+
+.default_login_page-login_provider_text
+{
+	font-size: 1.2em;
+	margin-bottom: 1em;
+}
+
+.default_login_page-register_reset_text
+{
+	padding-top: 5px;
+	text-align: center;
+	border-top: 1px solid #CCC;
+}
+
+.default_login_page-register_reset_text a:visited
+{
+	color: blue;
+}
+
+.default_rego_page-center_box, .default_pass_reset_page-center_box
+{
+	margin: auto;
+	width: 480px;
+	height: 100%;
+}
+.default_rego_page-form_error_msg
+{
+	color: red;
+	padding-top: 2px;
+}
+.default_rego_page-server_title
+{
+	text-align: center;
+	font-weight: bold;
+}
+.default_rego_page-instructions
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.default_pass_reset_page-form_error_msg
+{
+	color: red;
+	padding-top: 2px;
+}
+
+
+
+/* Set width in pixels because for some reason in IE setting the attribute 'size' to 30 results in textboxes of different widths */
+.default_login_page #username, #password
+{
+	width: 200px;
+}
+
+.default_login_page-submit_button
+{
+	background-image: url(../images/login.png);
+	width: 77px;
+	height: 23px;
+}
+
+/* If OpenID is used, can define styling of OpenID provider 'buttons' here. */
+.default_login_page-google
+{
+	background-image: url(../OpenID/Google-logo.png);
+	width: 100px;
+	height: 60px;
+}
+.default_login_page-yahoo
+{
+	background-image: url(../OpenID/Yahoo-logo.png);
+	width: 100px;
+	height: 60px;
+}
+.default_login_page-aol
+{
+	background-image: url(../OpenID/AOL-logo.png);
+	width: 100px;
+	height: 60px;
+}
+
+.default_login_page-openid_button
+{
+	margin: 4px 6px 4px 6px;
+	display: inline-block;
+	border: 1px solid #CCC;
+}
+
+.default_login_page-openid_button:hover
+{
+	border: 1px solid #FB0;
+	cursor: pointer;
+}
+

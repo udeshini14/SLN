@@ -1,0 +1,27 @@
+/*
+	Settings for visual elements in the widget-combobox control (see widget-combobox.js)
+*/
+
+.ui-button {
+	margin-left: -1px;
+}
+.ui-button-icon-only .ui-button-text {
+	padding: 0em;
+} 
+.ui-autocomplete-input { 
+	margin: 0;
+	width: 200px;
+	font-size: 1em;
+}
+.ui-autocomplete {
+	max-height: 200px;
+	/* WIth IE6 need to set the height because it doesn't support max-height
+	height: 200px;
+	*/
+	overflow-y: auto;
+	/* prevent horizontal scrollbar */
+	overflow-x: hidden;
+	/* add padding to account for vertical scrollbar */
+	padding-right: 20px;
+	font-size: 1em;
+}
